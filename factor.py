@@ -11,25 +11,25 @@ def factor():
 	while True:
 		try:
 			num_str = raw_input('Enter an int:').strip()
-			num = int(num_str) 
-		except(KeyboardInterrupt,EOFError,ValueError):
-			print 'Invalid input,try again1.'
-			continue
-		else:
-			if isinstance(num,int):
-				print 'You picked ',num
-				break
+			if num_str.isdigit():
+				num = int(num_str) 
 			else:
-				print 'Invalid input,try agian2.'
+				print 'Not a number.Try again.'
 				continue
+		except(KeyboardInterrupt,EOFError,ValueError):
+			print 'Invalid input,try again.'
+			if raw_input(''''q' to quit:''')=='q':
+				exit(0)
+		else:
+			print 'You picked ',num
+			break
 	f = range(1,num//2+1)
 	print 'Before:',f
-
 	fac_list = []	
 	for i,t in enumerate(f):
-		if num % f[i] != 0:
+		if num % t == 0:
 			fac_list.append(t)
-
-	print fac_list
+	fac_list.append(num)
+	print 'After: ',fac_list
 if __name__ == '__main__':
 	factor()
