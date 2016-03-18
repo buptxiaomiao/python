@@ -11,7 +11,11 @@ def minute_convert():
 	while True:
 		try:
 			num_str=raw_input('Enter a minute in int number:').strip()
-			num = int (num_str)
+			if num_str.isdigit():
+				num = int (num_str)
+			else:
+				print 'Input_str is not a number.Try again.'	
+				continue
 		except (KeyboardInterrupt,ValueError,EOFError):
 			print 'Invalid Value,try again.'
 		else:
