@@ -1,0 +1,75 @@
+{'tokenize': <module 'tokenize' from '/usr/lib/python2.7/tokenize.pyc'>
+'heapq': <module 'heapq' from '/usr/lib/python2.7/heapq.pyc'>
+ '__future__': <module '__future__' from '/usr/lib/python2.7/__future__.pyc'>
+ 'copy_reg': <module 'copy_reg' from '/usr/lib/python2.7/copy_reg.pyc'>
+ 'sre_compile': <module 'sre_compile' from '/usr/lib/python2.7/sre_compile.pyc'>
+ '_collections': <module '_collections' (built-in)>
+ '_hashlib': <module '_hashlib' from '/usr/lib/python2.7/lib-dynload/_hashlib.i386-linux-gnu.so'>
+ '_sre': <module '_sre' (built-in)>
+ 'functools': <module 'functools' from '/usr/lib/python2.7/functools.pyc'>
+ 'encodings': <module 'encodings' from '/usr/lib/python2.7/encodings/__init__.pyc'>
+ 'site': <module 'site' from '/usr/lib/python2.7/site.pyc'>
+ '__builtin__': <module '__builtin__' (built-in)>
+ 'sysconfig': <module 'sysconfig' from '/usr/lib/python2.7/sysconfig.pyc'>
+ '__main__': <module '__main__' (built-in)>
+ 'operator': <module 'operator' (built-in)>
+ 'encodings.encodings': None
+ 'locale': <module 'locale' from '/usr/lib/python2.7/locale.pyc'>
+ 'pkgutil': <module 'pkgutil' from '/usr/lib/python2.7/pkgutil.pyc'>
+ '_heapq': <module '_heapq' (built-in)>
+ 'pydoc': <module 'pydoc' from '/usr/lib/python2.7/pydoc.pyc'>
+ 'abc': <module 'abc' from '/usr/lib/python2.7/abc.pyc'>
+ 'posixpath': <module 'posixpath' from '/usr/lib/python2.7/posixpath.pyc'>
+ '_random': <module '_random' (built-in)>
+ '_weakrefset': <module '_weakrefset' from '/usr/lib/python2.7/_weakrefset.pyc'>
+ 'errno': <module 'errno' (built-in)>
+ 'binascii': <module 'binascii' (built-in)>
+ 'encodings.codecs': None
+ 'sre_constants': <module 'sre_constants' from '/usr/lib/python2.7/sre_constants.pyc'>
+ 're': <module 're' from '/usr/lib/python2.7/re.pyc'>
+ '_abcoll': <module '_abcoll' from '/usr/lib/python2.7/_abcoll.pyc'>
+ 'collections': <module 'collections' from '/usr/lib/python2.7/collections.pyc'>
+ 'types': <module 'types' from '/usr/lib/python2.7/types.pyc'>
+ '_codecs': <module '_codecs' (built-in)>
+ 'encodings.__builtin__': None
+ 'opcode': <module 'opcode' from '/usr/lib/python2.7/opcode.pyc'>
+ '_warnings': <module '_warnings' (built-in)>
+ 'math': <module 'math' (built-in)>
+ 'genericpath': <module 'genericpath' from '/usr/lib/python2.7/genericpath.pyc'>
+ 'stat': <module 'stat' from '/usr/lib/python2.7/stat.pyc'>
+ 'zipimport': <module 'zipimport' (built-in)>
+ '_sysconfigdata': <module '_sysconfigdata' from '/usr/lib/python2.7/_sysconfigdata.pyc'>
+ 'string': <module 'string' from '/usr/lib/python2.7/string.pyc'>
+ '_locale': <module '_locale' (built-in)>
+ 'warnings': <module 'warnings' from '/usr/lib/python2.7/warnings.pyc'>
+ 'UserDict': <module 'UserDict' from '/usr/lib/python2.7/UserDict.pyc'>
+ 'inspect': <module 'inspect' from '/usr/lib/python2.7/inspect.pyc'>
+ 'encodings.utf_8': <module 'encodings.utf_8' from '/usr/lib/python2.7/encodings/utf_8.pyc'>
+ 'repr': <module 'repr' from '/usr/lib/python2.7/repr.pyc'>
+ 'sys': <module 'sys' (built-in)>
+ 'imp': <module 'imp' (built-in)>
+ 'codecs': <module 'codecs' from '/usr/lib/python2.7/codecs.pyc'>
+ 'readline': <module 'readline' from '/usr/lib/python2.7/lib-dynload/readline.i386-linux-gnu.so'>
+ '_sysconfigdata_nd': <module '_sysconfigdata_nd' from '/usr/lib/python2.7/plat-i386-linux-gnu/_sysconfigdata_nd.pyc'>
+ 'os.path': <module 'posixpath' from '/usr/lib/python2.7/posixpath.pyc'>
+ 'strop': <module 'strop' (built-in)>
+ '_functools': <module '_functools' (built-in)>
+ 'hashlib': <module 'hashlib' from '/usr/lib/python2.7/hashlib.pyc'>
+ 'sitecustomize': <module 'sitecustomize' from '/usr/lib/python2.7/sitecustomize.pyc'>
+ 'thread': <module 'thread' (built-in)>
+ 'keyword': <module 'keyword' from '/usr/lib/python2.7/keyword.pyc'>
+ 'signal': <module 'signal' (built-in)>
+ 'traceback': <module 'traceback' from '/usr/lib/python2.7/traceback.pyc'>
+ 'random': <module 'random' from '/usr/lib/python2.7/random.pyc'>
+ 'linecache': <module 'linecache' from '/usr/lib/python2.7/linecache.pyc'>
+ 'itertools': <module 'itertools' (built-in)>
+ 'posix': <module 'posix' (built-in)>
+ 'encodings.aliases': <module 'encodings.aliases' from '/usr/lib/python2.7/encodings/aliases.pyc'>
+ 'time': <module 'time' (built-in)>
+ 'exceptions': <module 'exceptions' (built-in)>
+ 'sre_parse': <module 'sre_parse' from '/usr/lib/python2.7/sre_parse.pyc'>
+ 'os': <module 'os' from '/usr/lib/python2.7/os.pyc'>
+ '_weakref': <module '_weakref' (built-in)>
+ 'token': <module 'token' from '/usr/lib/python2.7/token.pyc'>
+ 'dis': <module 'dis' from '/usr/lib/python2.7/dis.pyc'>}
+
