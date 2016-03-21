@@ -17,7 +17,6 @@ r = re.split(',',lines)#re.split(pattern,str)--split by pattern
 f = open('module_list.txt','w')
 for each in r:
 	mm = re.search('\'(\w+).:',each+'\n')
-	print mm
 	if mm is not None:
 		f.write(mm.group(1)+'\n')
 f.close()
