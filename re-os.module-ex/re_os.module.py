@@ -12,10 +12,19 @@ import string
 f = open('module.txt','r')
 lines = f.read()
 f.close()
-r = re.split(',',lines)
-print type(r)
+r = re.split(',',lines)#re.split(pattern,str)--split by pattern
+					   #---return a list 
+f = open('module_list.txt','w')
 for each in r:
-	mm = re.search('\'.+.:',each+'\n')
+	mm = re.search('\'(\w+).:',each+'\n')
+	print mm
 	if mm is not None:
-		print mm.group()
+		f.write(mm.group(1)+'\n')
+f.close()
+#re.match(pattern,string)--apply the pattern at start of string
+#re.search(pattern,string)--throuth string looking for a match to the patten
+			#--return (a) match object(addrs) or None if no match was found.
+#re.search().group()--return the string
+#re.search('(\w+)(:)').group(1)--return the ((\w+))
+#re.search().groups() ---return a list of ((\w+),(:))
 
