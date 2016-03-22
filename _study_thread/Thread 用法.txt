@@ -1,0 +1,8 @@
+Thread(
+	1.target = func,  args = ()
+
+	2.target = callable obj  (has obj.__call__)
+
+	3.target = inheriting class obj 
+			---run() invoked by start()
+	)
