@@ -1,0 +1,15 @@
+元组做函数参数时func(*tuple)
+字典做函数参数时func(**dict)
+tuple.sort(reverse  = True)#reverse = True make 321
+						   #default make 123
+把函数名做参数传递
+	def convert(func,argv)
+		return func(argv)
+列表解析
+	[exep for iter in iterable if cond_exep]
+	将exep应用于序列的每一个满足条件的成员
+	[len(x.strip())   for x in file] #获取每一行的长度
+生成器
+	(exep for iter in iterable if cond_exep) =>
+	sum(len(word) for line in data for word in line.split())
+

@@ -6,7 +6,8 @@
 # Created Time: 2016年03月21日 星期一 21时01分18秒
 #########################################################################
 #!/usr/bin/env python2.7
-
+#P278
+#把一个函数作参数传递
 def convert(func,seq):
 	'conv.sequence of numbers to same type.'
 	return [func(each) for each in seq]

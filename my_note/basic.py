@@ -40,6 +40,8 @@ count = 0
 while count<3:					#Don't forget :::::::::::::::::
 	print 'loop #%d'%count
 	count+=1
+#元组做函数参数时func(*tuple)
+#字典做函数参数时func(**dict)
 
 
 #when import,__name__ is port_name
