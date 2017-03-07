@@ -10,9 +10,9 @@
 #handler.py is to give txt HTML label
 
 class Handler:
-    "'
+    """
     处理程序父类
-    '"
+    """
 #callable()能够检查一个函数能否被调用，如果能，返回True
     def callback(self, prefix, name, *args):
 #getattr()返回一个对象的属性值
@@ -36,9 +36,9 @@ class Handler:
         return substitution
 
 class HTMLRender(Handler):
-    "'
+    """
     HTML处理程序，给文本块加相应的HTML标记
-    '"
+    """
     
     def start_document(self):
         print '<html><head><title>BUPTXIAOMIAO</title></head><body>'
@@ -80,11 +80,11 @@ class HTMLRender(Handler):
         return '<em>%s<em>' %match.group(1)
 
     def sub_url(self, match):
-        return '<a target="_blank" style="text-decoretion: none; 
+        return '<a target="_blank" style="text-decoretion: none; \
                 color:BC1A4B;" href="%s">%s</a>'%(match.group(1),
-                 match.group((1)))
+                 match.group(1))
     def sub_mail(self, match):
-        return '<a style="text-decoration:none;color:BC1A4B;"
+        return '<a style="text-decoration:none;color:BC1A4B;"\
                 href="mailto:%s">%s</a>'%(match.group(1),match.group(1))
 
     def feed(self,data):

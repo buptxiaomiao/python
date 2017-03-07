@@ -9,17 +9,17 @@
 #parser txt to some blocks
 
 def lines(file):
-    "'
+    """
     生成器，在文本最后加一行空行
-    '"
+    """
     for line in file:
         yield line
     yield '\n'
 
 def blocks(file):
-    "'
+    """
     生成器，生成单独的文本块
-    '"
+    """
     block = []
     for line in lines(file):
         if line.strip():
