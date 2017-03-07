@@ -21,7 +21,9 @@ print 'length of l is',len(l)
 print 'sorted(m) is',sorted(m)
 print 'sum of l is',sum(l)
 
-
+print l 
+print m 
+print n
 #zip(iter1,iter2,iter3)--------return a list
 print "zip(l,m,n) is",zip(l,m,n)
 #enumerate()

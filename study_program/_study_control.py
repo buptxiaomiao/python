@@ -10,11 +10,11 @@
 ddict=dict(zip(('x','y','z'),(1,2,3)))
 print ddict
 for i in ddict.itervalues():
-	print i
+	print i,
 for i in ddict.iteritems():
-	print i
+	print i,
 for i in ddict.iterkeys():
-	print i
+	print i,
 
 
 #获取文件最大的行
