@@ -23,8 +23,8 @@ def test():
 		for eachv in vals:
 			retval = testit(eachf,eachv)#每次只调用了一个元素
 			if retval[0]:#result 返回，调用True,False.
-				print '%s(%s)='%(eachf.__name__,'eachv'),retval[1]#结果
+				print '%s(%s)='%(eachf.__name__,eachv),retval[1]#结果
 			else:
-				print '%s(%s)=FAILED'%(eachf.__name__,'eachv'),retval[1]#异
+				print '%s(%s)=FAILED'%(eachf.__name__,eachv),retval[1]#异
 if __name__ == '__main__':
 	test()

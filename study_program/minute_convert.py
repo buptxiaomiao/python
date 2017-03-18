@@ -12,7 +12,7 @@ def minute_convert():
 		try:
 			num_str=raw_input('Enter a minute in int number:').strip()
 			if num_str.isdigit():
-				num = int (num_str)
+				num = int(num_str)
 			else:
 				print 'Input_str is not a number.Try again.'	
 				continue

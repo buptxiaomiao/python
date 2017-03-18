@@ -13,3 +13,7 @@ tuple.sort(reverse  = True)#reverse = True make 321
 	(exep for iter in iterable if cond_exep) =>
 	sum(len(word) for line in data for word in line.split())
 
+
+from os import popen
+f = popen('ls',r) -->pipe
+    
