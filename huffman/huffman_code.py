@@ -115,19 +115,27 @@ def buildHuffmanTree(list_hufftrees):
         构造haffman树
     """
     while len(list_hufftrees) > 1:
+
         #1. 按照weight对huffman树进行从小到大排序
         list_hufftrees.sort(key = lambda x: x.get_weight())
+
         #2. 挑出weight最小的两个huffman编码树
-        print len(list_hufftrees)
         temp1 = list_hufftrees[0]
         temp2 = list_hufftrees[1]
-        list_huffmantrees = list_hufftrees[2:]
+        list_hufftrees = list_hufftrees[2:]
+
         #3. 构造一个新的huffman树
         newed_hufftree = HuffTree(1, 0, 0, temp1, temp2)
+
         #4. 新树放入编码树list中
         list_hufftrees.append(newed_hufftree)
     return list_hufftrees[0]
 
+#1.获取要被压缩的文件名
+#2.二进制读取文件，统计ASCII码，保存在freq字典中
+#3.调用buildHuffmanTree方法，创建Huffman树
+#4.调用HuffTree类中的traverse_huffman_tree，分配相应的Huffman编码
+#5.打印编码
 
 if __name__ == '__main__':
     #获取用户输入
