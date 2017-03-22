@@ -10,8 +10,8 @@ import urllib2
 
 class HtmlDownloader(object):
     def download(self,url):
-        headers = ("User-Agent":"Mozilla/5.0",\
-                    "Referer":"http://www.baidu.com")
+        headers = {"User-Agent":"Mozilla/5.0",\
+                    "Referer":"http://www.baidu.com"}
         req = urllib2.Request(url,headers = headers)
         response = urllib2.urlopen(req)
 
@@ -19,4 +19,3 @@ class HtmlDownloader(object):
             return response.read()
         else:
             return None
-    
