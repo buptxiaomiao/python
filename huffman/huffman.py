@@ -137,9 +137,13 @@ def compress(inputfilename, outputfilename):
         inputfilename:被压缩文件
         outputfilename:压缩后的文件
     """
+    #1.二进制打开要压缩的文件
     f = open(inputfilename, 'rb')
-    filedata = f.read()
-    filesize = f.tell()
+    filedata = f.read()#数据
+    filesize = f.tell()#文件总字节数
+    
+    #2.统计byte取值[0-255]的每个值出现的频率
+    #  值+权重保存在char_freq字典中
     char_freq = {}
     for x in range(filesize):
         tem = six.byte2int(filedata[x])
@@ -148,6 +152,7 @@ def compress(inputfilename, outputfilename):
         else:
             char_freq[tem] = 1
 
+    #
     for tem in char_freq.keys():
         print tem, ':', char_freq[tem]
     
